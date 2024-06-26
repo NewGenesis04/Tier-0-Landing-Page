@@ -1,0 +1,141 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #85D1FB;
+}
+
+/* General styles for ordered lists */
+ol {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin: 0 20px;
+}
+
+/* General styles for paragraphs */
+p {
+    font-size: 18px;
+    margin: 0 20px 20px 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: grey;
+    border-radius: 5px;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Section-specific styles */
+#home {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 20px;
+    color: #333; /* Dark text color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+}
+
+#overview {
+    background-color: #e0e0ff; /* Light blue background */
+    padding: 30px;
+    color: #333; /* Dark text color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Adds depth */
+}
+
+#resources {
+    background-color: #f0f0f0;
+    padding: 30px;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+}
+
+#team {
+    background-color: #e0e0ff;
+    padding: 30px;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
+}
+
+#contact {
+    background-color: #f0f0f0;
+    padding: 20px;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+}
+
+/* Adds spacing between sections */
+section {
+    margin-bottom: 30px;
+}
+
+/* Heading styles */
+h1, h2 {
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Unordered list styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: lightblue;
+    text-decoration: none;
+}

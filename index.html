@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer> </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Welcome to the CMS Tier-0</h1>
+            <p>This is the landing page for the <b>CMS Tier-0</b>. Here you will find links to all our important resources.</p>
+        </section>
+        <section id="overview">
+            <h2>Overview</h2>
+            <p>
+            CMS Tier0 is the last step in the chain of services responsible for new data acquisition and processing in the CMS Collaboration. 
+            </p>
+            <p>
+                Tier0 is responsible for the creation and permanent storage of CMS RAW data, which is the basis of all scientific results for the collaboration. All other data representations are transient with a short lifetime. This is the most critical task that Tier0 is responsible for.
+            </p>
+            <p>
+                In the order of priority Tier0 team is responsible for the following tasks:
+            </p>
+            <ol>
+                <li>Streamer data repacking into RAW format and safe data storage on tape at two different sites. Till it happens we must always have two independent copies to prevent data lost in case of a storage failure.
+                     </li>
+                <br>
+                <li>Data repacking must be performed fast enough to avoid a situation when we have just one copy of the streamer files because buffers at P5 are full. In an extreme case CMS may be forced to stop data taking if we run out of space in the EOS streamer storage area. 
+                    <br> Besides data storage,  repacking is also important as a test of data readability and if it is not readable this needs to be investigated and fixed ASAP to prevent data loss. </li>
+                    <br>
+                    <li> Express processing is critical for the detector calibration and it is expected to be available shortly after data taking (within a few hours). It provides detailed information on the data quality. </li> 
+                    <br>
+                    <li> Prompt reconstruction is the first attempt to reconstruct all new data completely. It is often used for urgent physics studies and publications. Beside that role, prompt reconstruction ensures that the RAW data is usable. All other processes use streamer files and if RAW is not tested we may end up with corrupted unusable data even if streamer data is Ok. </li>
+                
+                
+
+                </li>
+            </ol>
+        </section>
+        <section id="resources">
+            <h2>Resources</h2>
+            <ul>
+                <li><a href="https://cmst0.web.cern.ch/CMST0/tier0/nodeSummary_frontend/" target="_blank">Headnode Summary: Current index </a></li>
+                <li><a href="https://cmst0.web.cern.ch/activeRuns/" target="_blank">Active runs page: Simple monitoring page</a></li>
+                <li><a href="https://cmst0.web.cern.ch/pausedJobs/" target="_blank">Paused jobs: Simple monitoring page</a></li>
+                <li><a href="https://cmst0.docs.cern.ch/" target="_blank">CMS Tier-0 documentation</a></li>
+                <li><a href="https://monit-grafana.cern.ch/d/itZ_fxk4z/cms-tier0-overview?orgId=11&refresh=5m" target="_blank">Grafana T0 Overview: Dashboards showing data from Elastic sear and Influx databases</a></li>
+                <!-- Add more resources as needed -->
+            </ul>
+        </section>
+        <section id="team">
+            <h2>Meet the Team</h2>
+            <p><a href="mailto:jan.eysermans@cern.ch">Jan Eysermans</a>: Lead Physicist</p>
+            <p><a href="mailto:german.giraldo@cern.ch">German Giraldo</a>: Systems Engineer</p>
+            <p><a href="mailto: ogie.progress.omorose@cern.ch">Ogie Omorose</a>: Summer Student</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>For more information, contact us at <a href="mailto:team@example.com">team@example.com</a>.</p>
+        </section>
+    </main>
+</body>
+</html>
